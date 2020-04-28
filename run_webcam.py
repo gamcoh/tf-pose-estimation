@@ -55,7 +55,7 @@ if __name__ == '__main__':
     while True:
         ret_val, image = cam.read()
         if not ret_val:
-            logger.error('Something went wrong we the camera.')
+            logger.error('Something went wrong with the camera.')
             break
 
         logger.debug('image process+')
